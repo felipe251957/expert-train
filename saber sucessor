@@ -1,0 +1,18 @@
+n1 = int(input('Um valor: '))
+n2 = int(input('Outro valor: '))
+s = n1 + n2
+print('A soma {0} mais {1} vale {2}'.format(n1, n2, s))
+
+#saber sucessor
+n = int(input('Digite o valor: '))
+a = n - 1
+s = n + 1
+print('Analisando o valor {}, seu antecessor é {}, e o sucessor é {}'.format(n, a, s))
+
+#cria um algoritmo que leia um número e mosrte o seu dobro, triplo e raiz quadrada
+n3 = int(input('Digite um valor: '))
+n4 = int(input('Digite outro valor: '))
+m = n3 * n4
+m1 = n3 * n4 * n3 * n4
+m2 = n3 ** n4
+print('Valor sobrado de {0}, tripo será {1}, raíz quadrada {2}'. format(m, m1, m2))
